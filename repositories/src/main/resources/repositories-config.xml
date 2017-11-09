@@ -17,8 +17,7 @@
 	
 	<!--  ######################    data mongo config    #######################  -->
 	<mongo:repositories base-package="com.ibm.ie.iem.apaa.persistence.repositories.mongo" />
-	<mongo:db-factory host="localhost" port="27017" dbname="test" />
-	
+	<mongo:db-factory host="ds049570.mongolab.com" port="49570" dbname="IbmCloud_31207n7n_rtkd11bj" username="IbmCloud_31207n7n_rtkd11bj_uh3pvrqu" password="aDnY2HqiXSbSTNEltcCXrkEuLx8pL2m3" />
 	<bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
 		<constructor-arg name="mongoDbFactory" ref="mongoDbFactory" />
 	</bean>
